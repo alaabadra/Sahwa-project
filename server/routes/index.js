@@ -9,7 +9,7 @@ const {getAllPosts}=require('../controllers/post/getAllPosts');
 const {getPost}=require('../controllers/post/getPost');
 
 router.get('/get-blackmail-services',services.getBalckmainServices);
-router.get('/get_comments/:postid',getComments);
+router.get('/get-comments/:postid',getComments);
 router.get('/get-all-posts',getAllPosts);
 router.get('/get-post/:postid',getPost);
 router.post('/add-post',addPost);
@@ -34,7 +34,23 @@ module.exports=router;
 //         response.allCommentsForThisPost
 //     });
 ////////////////////////////////////////////
-// fetch('/api/v1/get-posts', {
+// fetch('/api/v1/get-all-posts', {
+//     method: 'GET',
+//     credentials: 'same-origin',
+//     headers: {
+//       'Content-type': 'application/json',
+//     },
+//   })
+//     .then(res => {
+
+//       return res.json()
+//     })
+//     .then(response => {
+//         response.post,
+            // response.title
+//     });
+
+// fetch('/api/v1/get-post/{$postid}', {
 //     method: 'GET',
 //     credentials: 'same-origin',
 //     headers: {
@@ -60,9 +76,7 @@ module.exports=router;
     //     },
     //   })
     //     .then(res => {
-    
     //       return res.json()
-    
     //     })
     //     .then(response => {
             // if(response){
@@ -134,10 +148,8 @@ module.exports=router;
             //     }),
             //   })
             //     .then(response => {
-            //         console.log('sucsess add your question for contact , wait a few time to reply on you');
-                    
+            //         console.log('sucsess add your question for contact , wait a few time to reply on you');                    
             //     });
-
 
             // fetch('/api/add-comp', {
             //     method: 'POST',
@@ -151,6 +163,6 @@ module.exports=router;
             //     }),
             //   })
             //     .then(response => {
-            //         console.log('sucsess add your question for contact , wait a few time to reply on you');
-                    
+            //         console.log('sucsess add your question for contact , wait a few time to reply on you');        
             //     });
+            

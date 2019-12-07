@@ -4,8 +4,6 @@ CREATE TABLE posts(
   post_id SERIAL PRIMARY KEY,
   title TEXT,
   post TEXT
-
-
 );
 CREATE TABLE comments(
   comments_id BIGSERIAL PRIMARY KEY,
@@ -24,9 +22,9 @@ CREATE TABLE contactUs(
 );
 CREATE TABLE complaint(
   compId SERIAL PRIMARY KEY,
+  phone_num INTEGER,
   titlecomp TEXT,
   msg_comp TEXT,
-  voice_note TEXT,
-  social_info TEXT
+  voice_note TEXT
 );
 COMMIT;
