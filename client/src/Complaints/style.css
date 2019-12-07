@@ -1,0 +1,103 @@
+
+.complaints{
+
+   
+  
+    border-radius: 6px;
+  
+    box-shadow: 0 3px 6px 0 rgba(114, 42, 144, 0.16);
+  
+    background-color: #ffffff;
+}
+.comp-submitbtn {
+    width: 470px;
+    height: 50px;
+    border-radius: 6px;
+    margin-left: 414px;
+    margin-top: 32px;
+    background-image: linear-gradient(83deg, #8e2794 -31%, #722a90 130%);
+}
+.comp-control {
+    height: 45px;
+    border-radius: 6px;
+
+    margin-left: 358px;
+    width: 580px;
+    background-color: #ffffff;
+}
+.comp-msgcontrol{
+    height: 45px;
+    border-radius: 6px;
+
+    margin-left: 358px;
+    width: 580px;
+    height: 122px;
+    background-color: #ffffff;
+}
+.comp-filebtn {
+    width: 220px;
+    height: 45px;
+    border-radius: 6px;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    margin-top: 32px;
+}
+
+h2{
+    margin-bottom: .5rem;
+    margin-left: 368px;
+    margin-right: 416px;
+    font-weight: 500;
+    line-height: 1.2;
+  
+    font-family: Almarai;
+  
+    font-size: 18px;
+  
+    font-weight: bold;
+  
+    font-stretch: normal;
+  
+    font-style: normal;
+  
+    line-height: 1.56;
+  
+    letter-spacing: normal;
+  
+    text-align: right;
+  
+    color: #722a90;
+}
+label {
+    display: inline-block;
+    margin-bottom: .5rem;
+    margin-left: 868px;
+}
+.comp-titlecontrol{
+    margin-left:10px
+}
+.comp-titlelabel {
+    margin-left: 777px;
+}
+.form-control {
+    display: block;
+    width: 56%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    margin-right: 323px;
+}
+.comp-sbtn{
+    margin-left:96px
+}
+.comp-ssbtn{
+    margin-left:385px
+}
